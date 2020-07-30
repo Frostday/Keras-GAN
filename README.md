@@ -15,10 +15,10 @@ python GAN.py
 
 ## Model
 
-###Generator
+Generator
 ![](assets/generator.png)
 
-###Discriminator
+Discriminator
 ![](assets/discriminator.png)
 
 ## Explanation
@@ -32,7 +32,7 @@ and purpose of discriminator is to recognise images by generator and not get foo
 
 ## Results
 
-###This is the output after 10,000 epochs
+This is the output after 10,000 epochs
 
 | Discriminator Loss  | Discriminator Accuracy | GAN Loss       |
 |:--------------------|:-----------------------|:---------------|
@@ -40,7 +40,7 @@ and purpose of discriminator is to recognise images by generator and not get foo
 
 ![](assets/10k.jpeg)
 
-###This is the output after 100,000 epochs
+This is the output after 100,000 epochs
 
 | Discriminator Loss  | Discriminator Accuracy | GAN Loss       |
 |:--------------------|:-----------------------|:---------------|
