@@ -5,7 +5,7 @@ A basic implementation of General Adversarial Networks using Tensorflow framewor
 
 * Fork the repo and clone it.
 ```
-https://github.com/Frostday/Keras-GAN.git
+https://github.com/Frostday/Tensorflow-GAN.git
 ```
 * Install the necessary packages required to run the code
 * Run the following command
