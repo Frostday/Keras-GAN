@@ -1,7 +1,7 @@
 # Keras GAN
 A basic implementation of General Adversarial Networks using Keras framework in Python. I used the mnist dataset for training my GAN and the purpose of this was to create a model which can generate numbers from random noise.
 
-### Installation and Setup
+## Installation and Setup
 
 * Fork the repo and clone it.
 ```
@@ -13,15 +13,15 @@ https://github.com/Frostday/Keras-GAN.git
 python GAN.py
 ```
 
-### Model
+## Model
 
-####Generator
+###Generator
 ![](assets/generator.png)
 
-####Discriminator
+###Discriminator
 ![](assets/discriminator.png)
 
-### Explanation
+## Explanation
 
 We first train GAN(generator + discriminator) by inputting noise and give output as valid(1) and only generator weights 
 will be trained(the purpose is therefore to fool the discriminator into thinking these generated images are valid).
@@ -30,9 +30,9 @@ mnist with output - valid(1)(basically train discriminator to label images gener
 Therefore we set up a rivalry between generator and discriminator where purpose of generator is to fool the discriminator 
 and purpose of discriminator is to recognise images by generator and not get fooled.
 
-### Results
+## Results
 
-######This is the output after 10,000 epochs
+###This is the output after 10,000 epochs
 
 | Discriminator Loss  | Discriminator Accuracy | GAN Loss       |
 |:--------------------|:-----------------------|:---------------|
@@ -40,7 +40,7 @@ and purpose of discriminator is to recognise images by generator and not get foo
 
 ![](assets/10k.jpeg)
 
-######This is the output after 100,000 epochs
+###This is the output after 100,000 epochs
 
 | Discriminator Loss  | Discriminator Accuracy | GAN Loss       |
 |:--------------------|:-----------------------|:---------------|
