@@ -1,4 +1,4 @@
-# Keras GAN
+# Tensorflow GAN
 A basic implementation of General Adversarial Networks using Tensorflow framework in Python. I used the mnist dataset for training my GAN and the purpose of this was to create a model which can generate numbers from random noise.
 
 ## Installation and Setup
