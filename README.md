@@ -5,7 +5,7 @@ A basic implementation of General Adversarial Networks using Keras framework in 
 
 * Fork the repo and clone it.
 ```
-https://github.com/Frostday/
+https://github.com/Frostday/Keras-GAN.git
 ```
 * Install the necessary packages required to run the code
 * Run the following command
